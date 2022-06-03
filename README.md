@@ -12,4 +12,4 @@
 <h3>b. Recovery</h3>
 <img width="833" alt="3  recovery" src="https://user-images.githubusercontent.com/76044697/171627722-34174a89-5f88-47f9-b03b-7cea444b9c9b.PNG">
 <h2>4.Script cron job untuk melakukan backup otomatis setiap hari minggu jam 12 malam</h2>
-<p>0 0 * * 6 mysqldump -u root -p desyana_312010096 > `date +"%Y-%m-%d_%H-%M"`.backup_312010096.sql;</p>
+<p>0 0 * * 0 mysqldump -u root -p desyana_312010096 > `date +"%Y-%m-%d_%H-%M"`.backup_312010096.sql;</p>
